@@ -41,7 +41,7 @@ echo "latest_version: ${latest_version}"
 
 REVISION="$(git rev-parse --short HEAD)"
 CREATED="$(date -u +”%Y-%m-%dT%H:%M:%SZ”)"
-IMAGE_NAME="docker.io/janusgraph/janusgraph"
+IMAGE_NAME="docker.io/liboxuanhk/janusgraph"
 PLATFORMS="linux/amd64,linux/arm64"
 
 echo "REVISION: ${REVISION}"
